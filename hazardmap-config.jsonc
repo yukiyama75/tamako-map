@@ -10,7 +10,7 @@
   // 市区町村名を設定してください。
   // ただし、政令指定都市をここに設定することはできません。
   // また、郡は不要です。"比企郡小川町" ではなく "小川町" としてください。
-  "shikuchoson": "八王子市",
+  "shikuchoson": "東大和市",
   
   // ハザードマップポータルサイトで提供されているデータの一覧です。
   // 対象の市区町村に応じて、不要な要素（"{}"で囲まれる単位）を削除してください。
@@ -43,16 +43,6 @@
       "attribution": "<a href=\"https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html\">ハザードマップポータルサイト</a>"
     },
     {
-      "name": "高潮浸水想定区域",
-      "url": "https://disaportaldata.gsi.go.jp/raster/03_hightide_l2_shinsuishin_data/{z}/{x}/{y}.png",
-      "attribution": "<a href=\"https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html\">ハザードマップポータルサイト</a>"
-    },
-    {
-      "name": "津波浸水想定",
-      "url": "https://disaportaldata.gsi.go.jp/raster/04_tsunami_newlegend_data/{z}/{x}/{y}.png",
-      "attribution": "<a href=\"https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html\">ハザードマップポータルサイト</a>"
-    },
-    {
       "name": "土砂災害警戒区域（土石流）",
       "url": "https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki/{z}/{x}/{y}.png",
       "attribution": "<a href=\"https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html\">ハザードマップポータルサイト</a>"
@@ -63,29 +53,9 @@
       "attribution": "<a href=\"https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html\">ハザードマップポータルサイト</a>"
     },
     {
-      "name": "土砂災害警戒区域（地すべり）",
-      "url": "https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki/{z}/{x}/{y}.png",
-      "attribution": "<a href=\"https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html\">ハザードマップポータルサイト</a>"
-    },
-    {
-      "name": "土石流危険渓流",
-      "url": "https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu/{z}/{x}/{y}.png",
-      "attribution": "<a href=\"https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html\">ハザードマップポータルサイト</a>"
-    },
-    {
       "name": "急傾斜地崩壊危険箇所",
       "url": "https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai/{z}/{x}/{y}.png",
       "attribution": "<a href=\"https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html\">ハザードマップポータルサイト</a>"
     },
-    {
-      "name": "地すべり危険箇所",
-      "url": "https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo/{z}/{x}/{y}.png",
-      "attribution": "<a href=\"https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html\">ハザードマップポータルサイト</a>"
-    },
-    {
-      "name": "雪崩危険箇所",
-      "url": "https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo/{z}/{x}/{y}.png",
-      "attribution": "<a href=\"https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html\">ハザードマップポータルサイト</a>"
-    }
-  ]
+    ]
 }
